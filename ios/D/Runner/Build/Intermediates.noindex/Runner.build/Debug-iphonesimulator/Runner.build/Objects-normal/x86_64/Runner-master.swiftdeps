@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "1277663cca38a6b8979de0ed663311d9"
+build_time: [1599689152, 442592000]
+inputs:
+  "/Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Runner/AppDelegate.swift": [1571281416, 0]

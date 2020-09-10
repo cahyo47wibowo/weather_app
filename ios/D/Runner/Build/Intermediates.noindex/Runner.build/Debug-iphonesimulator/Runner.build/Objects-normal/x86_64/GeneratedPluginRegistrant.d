@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Modules/module.modulemap \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/pungs/Documents/FLUTTER/weater_app_bloc/weather_app/ios/Flutter/Flutter.framework/Headers/Flutter.h
