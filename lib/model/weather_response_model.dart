@@ -21,7 +21,7 @@ class WeatherResponse{
 
   WeatherResponse.fromJson(Map<String, dynamic> parsedJson){
     _dt = parsedJson['dt'];
-    _coord = parsedJson['coord'];
+    _coord = Coord(parsedJson['coord']);
     _visibility = parsedJson['visibility'];
     List<WeatherItem> weather = [];
     for(int i = 0; i< parsedJson['weather'].length; i++){
@@ -31,74 +31,19 @@ class WeatherResponse{
     _weather = weather;
     _name = parsedJson['name'];
     _cod = parsedJson['cod'];
-    _mainModel = parsedJson ['mainModel'];
-    _cloud = parsedJson ['cloud'];
+    _mainModel = MainModel(parsedJson ['mainModel']);
+    _cloud = Cloud(parsedJson ['cloud']);
     _id = parsedJson ['id'];
-    _sys = parsedJson ['sys'];
+    _sys = Sys(parsedJson ['sys']);
     _base = parsedJson ['base'];
-    _wind = parsedJson ['wind'];
+    _wind = Wind(parsedJson ['wind']);
 
   }
 
+  Wind get wind => _wind;
 
-  String get name => _name;
-
-  set name(String value) {
-    _name = value;
-  }
-
-  int get dt => _dt;
-
-  set dt(int value) {
-    _dt = value;
-  }
-
-  Coord get coord => _coord;
-
-  set coord(Coord value) {
-    _coord = value;
-  }
-
-  int get visibility => _visibility;
-
-  set visibility(int value) {
-    _visibility = value;
-  }
-
-  List<WeatherItem> get weather => _weather;
-
-  set weather(List<WeatherItem> value) {
-    _weather = value;
-  }
-
-  int get cod => _cod;
-
-  set cod(int value) {
-    _cod = value;
-  }
-
-  MainModel get mainModel => _mainModel;
-
-  set mainModel(MainModel value) {
-    _mainModel = value;
-  }
-
-  Cloud get cloud => _cloud;
-
-  set cloud(Cloud value) {
-    _cloud = value;
-  }
-
-  int get id => _id;
-
-  set id(int value) {
-    _id = value;
-  }
-
-  Sys get sys => _sys;
-
-  set sys(Sys value) {
-    _sys = value;
+  set wind(Wind value) {
+    _wind = value;
   }
 
   String get base => _base;
@@ -107,9 +52,63 @@ class WeatherResponse{
     _base = value;
   }
 
-  Wind get wind => _wind;
+  Sys get sys => _sys;
 
-  set wind(Wind value) {
-    _wind = value;
+  set sys(Sys value) {
+    _sys = value;
+  }
+
+  int get id => _id;
+
+  set id(int value) {
+    _id = value;
+  }
+
+  Cloud get cloud => _cloud;
+
+  set cloud(Cloud value) {
+    _cloud = value;
+  }
+
+  MainModel get mainModel => _mainModel;
+
+  set mainModel(MainModel value) {
+    _mainModel = value;
+  }
+
+  int get cod => _cod;
+
+  set cod(int value) {
+    _cod = value;
+  }
+
+  String get name => _name;
+
+  set name(String value) {
+    _name = value;
+  }
+
+  List<WeatherItem> get weather => _weather;
+
+  set weather(List<WeatherItem> value) {
+    _weather = value;
+  }
+
+  int get visibility => _visibility;
+
+  set visibility(int value) {
+    _visibility = value;
+  }
+
+  Coord get coord => _coord;
+
+  set coord(Coord value) {
+    _coord = value;
+  }
+
+  int get dt => _dt;
+
+  set dt(int value) {
+    _dt = value;
   }
 }

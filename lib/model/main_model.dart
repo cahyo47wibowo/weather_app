@@ -5,7 +5,7 @@ class MainModel{
   int _pressure;
   double _tempMax;
 
-  Main(parsedJson) {
+  MainModel(parsedJson) {
     _temp = parsedJson['temp'];
     _tempMin = parsedJson['temp_min'];
     _humidity = parsedJson['humidity'];
