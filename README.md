@@ -2,6 +2,8 @@
 
 Weather Flutter with BloC Pattern + WeatherMap API
 
+https://github.com/cahyo47wibowo/weather_app/blob/master/Screen%20Shot%202020-09-11%20at%2014.33.57.png?raw=true
+
 In this Project, we implement Reactive Programming using RxDart.
 RxDart is based on Streams and Sinks. 
 
