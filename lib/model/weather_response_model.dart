@@ -31,8 +31,8 @@ class WeatherResponse{
     _weather = weather;
     _name = parsedJson['name'];
     _cod = parsedJson['cod'];
-    _mainModel = MainModel(parsedJson ['mainModel']);
-    _cloud = Cloud(parsedJson ['cloud']);
+    _mainModel = MainModel(parsedJson ['main']);
+    _cloud = Cloud(parsedJson ['clouds']);
     _id = parsedJson ['id'];
     _sys = Sys(parsedJson ['sys']);
     _base = parsedJson ['base'];
